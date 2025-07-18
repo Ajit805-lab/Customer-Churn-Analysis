@@ -1,4 +1,4 @@
-# Telecom customer-Churn-Analysis
+# 📊 Telecom customer-Churn-Analysis
 
 ## 🔍 Overview
     This project aims to analyze customer churn in a telecom company using real-world data. The goal is to identify key patterns, visualize trends, 
@@ -114,6 +114,41 @@
     DAX Measures
     
 ## 📌 DAX Highlights
+
+    Total_charge = sum(Sheet1[TotalCharges])
+
+    Total_Monthly_charge = sum(Sheet1[MonthlyCharges])
+
+    Total_senior_citizens = calculate(COUNTROWS(Sheet1),Sheet1[SeniorCitizen]=1)
+
+    Avg_monthly_charge = AVERAGE(Sheet1[MonthlyCharges])
+
+    Avg_Tenure = AVERAGE(Sheet1[Tenure])
+
+    Avg_Total_charges = AVERAGE(Sheet1[TotalCharges])
+
+    churn_rate = (sum(Sheet1[churn_count])/[customer_count])*100
+
+    customer_count = DISTINCTCOUNT(Sheet1[customerID])
+    
+## 💡 Insights Uncovered
+    Churn rate is higher among customers with month-to-month contracts.
+
+    Customers using electronic checks have the highest churn.
+
+    Users with tenure below 24 months are more likely to churn.
+
+    Fiber optic users have a higher churn percentage compared to DSL.
+    
+ ## 📬 Contact / Credits
+Author: Ajit Kumar Samal
+
+LinkedIn: www.linkedin.com/in/ajitkumarsamal
+
+GitHub: https://github.com/Ajit805-lab
+
+Email: ajitkumarofficial79@gmail.com
+
       
   
 
