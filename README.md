@@ -107,6 +107,8 @@
 ## 🛠 Tools & Technologies
     Pyhton (pandas, numpy, matplotlib)
 
+    Jupyter Notebook
+
     MySQL
 
     Power Bi
